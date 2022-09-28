@@ -1339,6 +1339,14 @@ a {
   text-decoration: none;
 }
 
+.paid a {
+  color: #ffffff;
+}
+
+.paid a:hover {
+  color: #c0ccda;
+}
+
 /* line 7, src/assets/scss/elements/_elements.links.scss */
 a:hover {
   color: #1062fe;
@@ -49390,6 +49398,20 @@ footer a {
   font-size: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.btn-xxs {
+  font-size: 12px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.single-blog-article .article-footer .article-user .btn-xxs {
+    background: #fdd446 !important;
+}
+
+.single-blog-article .article-footer .article-user .btn-xxs:hover {
+    background: #ffff00 !important;
 }
 
 /* line 62, src/assets/scss/components/_components.buttons.scss */
